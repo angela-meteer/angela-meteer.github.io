@@ -1,0 +1,69 @@
+#images {
+	padding: 7.5%;
+}
+
+img {
+	width: 47.75%;
+	margin: 1%;
+}
+
+#img1 {
+        width: 47.75%;
+        background: url("images/01.png") no-repeat;
+        background-size: 100%;
+        -webkit-transition: all 0.75s ease; /* Safari */
+		transition: all 0.75s ease;
+    }
+
+#img1:hover, #img1:active {
+    background: url("images/01-c.png") no-repeat;
+    background-size: 100%;
+}
+
+#img2 {
+        width: 47.75%;
+        background: url("images/02.png") no-repeat;
+        background-size: 100%;
+        -webkit-transition: all 0.75s ease; /* Safari */
+		transition: all 0.75s ease;
+    }
+
+#img2:hover, #img2:active {
+    background: url("images/02-c.png") no-repeat;
+    background-size: 100%;
+}
+
+#img3 {
+        width: 47.75%;
+        background: url("images/03.png") no-repeat;
+        background-size: 100%;
+        -webkit-transition: all 0.75s ease; /* Safari */
+		transition: all 0.75s ease;
+    }
+
+#img3:hover, #img3:active {
+    background: url("images/03-c.png") no-repeat;
+    background-size: 100%;
+}
+
+#img4 {
+        width: 47.75%;
+        background: url("images/04.png") no-repeat;
+        background-size: 100%;
+        -webkit-transition: all 0.75s ease; /* Safari */
+		transition: all 0.75s ease;
+    }
+
+#img4:hover, #img4:active {
+    background: url("images/04-c.png") no-repeat;
+    background-size: 100%;
+}
+
+
+
+
+
+
+
+
+

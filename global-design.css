@@ -1,0 +1,144 @@
+/* http://meyerweb.com/eric/tools/css/reset/ 
+   v2.0 | 20110126
+   License: none (public domain)
+*/
+
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section {
+	display: block;
+}
+body {
+	line-height: 1;
+}
+ol, ul {
+	list-style: none;
+}
+blockquote, q {
+	quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+	content: '';
+	content: none;
+}
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+
+a {
+  color: black;
+  text-decoration: none;
+}
+
+/*my css*/
+
+#container {
+	width: 100%;
+}
+
+body {
+	background: #FDF8F5;
+}
+
+@font-face {
+  font-family: 'Apercu Medium';
+  src: local('☺︎'),
+    url("fonts/apercu-medium-webfont.ttf") format("ttf");
+}
+
+@font-face {
+  font-family: 'Apercu Light';
+  src: local('☺︎'),
+    url("fonts/apercu-light.otf") format("otf");
+}
+
+@font-face {
+  font-family: 'Freya';
+  src: local('☺︎'),
+    url("fonts/freya-bold.ttf") format("ttf");
+}
+
+h1{
+	font-size: 350%;
+	font-family: 'Freya', serif;
+	letter-spacing: 1px;
+	color: #000000;
+	text-transform: lowercase;
+	text-align: center;
+	position: fixed;
+	top: 2.5%;
+	left: 30%;
+	width: 40%;
+	-webkit-transition: all 0.25s ease; /* Safari */
+    transition: all 0.25s ease;
+}
+
+h1:hover, h1:active {
+	color: #3200E1;
+}
+
+h2{
+	font-size: 140%;
+	font-family: 'Apercu Medium', sans-serif;
+	letter-spacing: 1px;
+	color: #000000;
+	text-transform: uppercase;
+}
+
+#work {
+	position: fixed;
+	top: 50%;
+	left: 1.5%;
+	-ms-transform: rotate(-90deg); /* IE 9 */
+    -webkit-transform: rotate(-90deg); /* Chrome, Safari, Opera */
+    transform: rotate(-90deg);
+}
+
+#contact {
+	position: fixed;
+	top: 50%;
+	right: .25%;
+	-ms-transform: rotate(90deg); /* IE 9 */
+    -webkit-transform: rotate(90deg); /* Chrome, Safari, Opera */
+    transform: rotate(90deg);
+}
+
+h2:hover, h2:active {
+	text-decoration: line-through;
+}
+
+h6 {
+	font-size: 100%;
+	font-family: 'Apercu Light', sans-serif;
+	color: #cfcfd2;
+	text-align: center;
+	letter-spacing: 0.25px;
+	padding: 10% 1% 0px 1%;
+}
+
+
+
+
+
