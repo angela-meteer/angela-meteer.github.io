@@ -63,16 +63,16 @@ body {
 }
 
 @font-face {
-  font-family: 'Apercu Medium';
+  font-family: 'Apercu';
   src: local('☺︎'),
     url("fonts/apercu-medium-webfont.ttf") format("ttf");
 }
 
-@font-face {
+/*@font-face {
   font-family: 'Apercu Light';
   src: local('☺︎'),
     url("fonts/apercu-light.otf") format("otf");
-}
+}*/
 
 @font-face {
   font-family: 'Freya';
@@ -85,8 +85,8 @@ h1:hover, h1:active {
 }
 
 h2{
-	font-size: 100%;
-	font-family: 'Apercu Medium', sans-serif;
+	font-size: 120%;
+	font-family: 'Apercu', sans-serif;
 	letter-spacing: 1px;
 	color: #000000;
 	text-transform: uppercase;
@@ -94,6 +94,16 @@ h2{
 
 h2:hover, h2:active {
 	text-decoration: line-through;
+}
+
+
+h6 {
+	font-size: 100%;
+	font-family: 'Apercu Light', sans-serif;
+	color: #cfcfd2;
+	text-align: center;
+	letter-spacing: 0.25px;
+	padding: 10% 1% 0px 1%;
 }
 
 /* desktop style */
@@ -137,14 +147,6 @@ h2:hover, h2:active {
 	    transition: all 1s ease;
 	}
 
-	h6 {
-		font-size: 100%;
-		font-family: 'Apercu Light', sans-serif;
-		color: #cfcfd2;
-		text-align: center;
-		letter-spacing: 0.25px;
-		padding: 10% 1% 0px 1%;
-	}
 }
 
 
@@ -189,15 +191,6 @@ h2:hover, h2:active {
 	    transition: all 1s ease;
 	}
 
-	h6 {
-		font-size: 100%;
-		font-family: 'Apercu Light', sans-serif;
-		color: #cfcfd2;
-		text-align: center;
-		letter-spacing: 0.25px;
-		padding: 10% 1% 0px 1%;
-	}
-
 }
 
 /* mobile style */
@@ -240,15 +233,5 @@ h2:hover, h2:active {
 	    -webkit-transition: all 1s ease; /* Safari */
 	    transition: all 1s ease;
 	}
-
-	h6 {
-		font-size: 100%;
-		font-family: 'Apercu Light', sans-serif;
-		color: #cfcfd2;
-		text-align: center;
-		letter-spacing: 0.25px;
-		padding: 10% 1% 0px 1%;
-	}
-
 
 }
