@@ -80,65 +80,175 @@ body {
     url("fonts/freya-bold.ttf") format("ttf");
 }
 
-h1{
-	font-size: 350%;
-	font-family: 'Freya', serif;
-	letter-spacing: 1px;
-	color: #000000;
-	text-transform: lowercase;
-	text-align: center;
-	position: fixed;
-	top: 2.5%;
-	left: 30%;
-	width: 40%;
-	-webkit-transition: all 0.25s ease; /* Safari */
-    transition: all 0.25s ease;
-}
-
 h1:hover, h1:active {
 	color: #3200E1;
 }
 
 h2{
-	font-size: 140%;
+	font-size: 100%;
 	font-family: 'Apercu Medium', sans-serif;
 	letter-spacing: 1px;
 	color: #000000;
 	text-transform: uppercase;
 }
 
-#work {
-	position: fixed;
-	top: 50%;
-	left: 1.5%;
-	-ms-transform: rotate(-90deg); /* IE 9 */
-    -webkit-transform: rotate(-90deg); /* Chrome, Safari, Opera */
-    transform: rotate(-90deg);
-}
-
-#contact {
-	position: fixed;
-	top: 50%;
-	right: .25%;
-	-ms-transform: rotate(90deg); /* IE 9 */
-    -webkit-transform: rotate(90deg); /* Chrome, Safari, Opera */
-    transform: rotate(90deg);
-}
-
 h2:hover, h2:active {
 	text-decoration: line-through;
 }
 
-h6 {
-	font-size: 100%;
-	font-family: 'Apercu Light', sans-serif;
-	color: #cfcfd2;
-	text-align: center;
-	letter-spacing: 0.25px;
-	padding: 10% 1% 0px 1%;
+/* desktop style */
+
+@media only screen and (min-width: 941px) {
+
+	h1{
+		font-size: 350%;
+		font-family: 'Freya', serif;
+		letter-spacing: 1px;
+		color: #000000;
+		text-transform: lowercase;
+		text-align: center;
+		position: fixed;
+		top: 2.5%;
+		left: 30%;
+		width: 40%;
+		-webkit-transition: all 0.25s ease; /* Safari */
+	    transition: all 0.25s ease;
+	}
+
+	#work {
+		position: fixed;
+		top: 50%;
+		left: 1.5%;
+		-ms-transform: rotate(-90deg); /* IE 9 */
+	    -webkit-transform: rotate(-90deg); /* Chrome, Safari, Opera */
+	    transform: rotate(-90deg);
+	    -webkit-transition: all 1s ease; /* Safari */
+	    transition: all 1s ease;
+	}
+
+	#contact {
+		position: fixed;
+		top: 50%;
+		right: .25%;
+		-ms-transform: rotate(90deg); /* IE 9 */
+	    -webkit-transform: rotate(90deg); /* Chrome, Safari, Opera */
+	    transform: rotate(90deg);
+	    -webkit-transition: all 1s ease; /* Safari */
+	    transition: all 1s ease;
+	}
+
+	h6 {
+		font-size: 100%;
+		font-family: 'Apercu Light', sans-serif;
+		color: #cfcfd2;
+		text-align: center;
+		letter-spacing: 0.25px;
+		padding: 10% 1% 0px 1%;
+	}
 }
 
 
+/* mid style */
+
+@media only screen and (min-width: 551px) and (max-width: 940px) {
+
+	h1{
+		font-size: 350%;
+		font-family: 'Freya', serif;
+		letter-spacing: 1px;
+		color: #000000;
+		text-transform: lowercase;
+		text-align: center;
+		position: fixed;
+		top: 2.5%;
+		left: 12.5%;
+		width: 75%;
+		-webkit-transition: all 0.25s ease; /* Safari */
+	    transition: all 0.25s ease;
+	}
+
+	#work {
+		position: fixed;
+		top: 50%;
+		left: 0.5%;
+		-ms-transform: rotate(-90deg); /* IE 9 */
+	    -webkit-transform: rotate(-90deg); /* Chrome, Safari, Opera */
+	    transform: rotate(-90deg);
+	    -webkit-transition: all 1s ease; /* Safari */
+	    transition: all 1s ease;
+	}
+
+	#contact {
+		position: fixed;
+		top: 50%;
+		right: -1.5%;
+		-ms-transform: rotate(90deg); /* IE 9 */
+	    -webkit-transform: rotate(90deg); /* Chrome, Safari, Opera */
+	    transform: rotate(90deg);
+	    -webkit-transition: all 1s ease; /* Safari */
+	    transition: all 1s ease;
+	}
+
+	h6 {
+		font-size: 100%;
+		font-family: 'Apercu Light', sans-serif;
+		color: #cfcfd2;
+		text-align: center;
+		letter-spacing: 0.25px;
+		padding: 10% 1% 0px 1%;
+	}
+
+}
+
+/* mobile style */
+
+@media only screen and (max-width: 550px) {
+
+	h1{
+		font-size: 350%;
+		font-family: 'Freya', serif;
+		letter-spacing: 1px;
+		color: #000000;
+		text-transform: lowercase;
+		text-align: center;
+		position: fixed;
+		top: 2.5%;
+		left: 12.5%;
+		width: 75%;
+		-webkit-transition: all 0.25s ease; /* Safari */
+	    transition: all 0.25s ease;
+	}
+
+	#work {
+		position: fixed;
+		top: 50%;
+		left: 0%;
+		-ms-transform: rotate(-90deg); /* IE 9 */
+	    -webkit-transform: rotate(-90deg); /* Chrome, Safari, Opera */
+	    transform: rotate(-90deg);
+	    -webkit-transition: all 1s ease; /* Safari */
+	    transition: all 1s ease;
+	}
+
+	#contact {
+		position: fixed;
+		top: 50%;
+		right: -3.5%;
+		-ms-transform: rotate(90deg); /* IE 9 */
+	    -webkit-transform: rotate(90deg); /* Chrome, Safari, Opera */
+	    transform: rotate(90deg);
+	    -webkit-transition: all 1s ease; /* Safari */
+	    transition: all 1s ease;
+	}
+
+	h6 {
+		font-size: 100%;
+		font-family: 'Apercu Light', sans-serif;
+		color: #cfcfd2;
+		text-align: center;
+		letter-spacing: 0.25px;
+		padding: 10% 1% 0px 1%;
+	}
 
 
-
+}
