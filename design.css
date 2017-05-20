@@ -16,7 +16,7 @@ img {
     }
 
 #img1:hover, #img1:active {
-    background: url("images/01-c.jpg") no-repeat;
+    background: url("images/01-c.png") no-repeat;
     background-size: 100%;
 }
 
@@ -29,7 +29,7 @@ img {
     }
 
 #img2:hover, #img2:active {
-    background: url("images/02-c.jpg") no-repeat;
+    background: url("images/02-c.png") no-repeat;
     background-size: 100%;
 }
 
@@ -42,7 +42,7 @@ img {
     }
 
 #img3:hover, #img3:active {
-    background: url("images/03-c.jpg") no-repeat;
+    background: url("images/03-c.png") no-repeat;
     background-size: 100%;
 }
 
@@ -55,7 +55,7 @@ img {
     }
 
 #img4:hover, #img4:active {
-    background: url("images/04-c.jpg") no-repeat;
+    background: url("images/04-c.png") no-repeat;
     background-size: 100%;
 }
 
