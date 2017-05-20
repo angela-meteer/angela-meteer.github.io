@@ -21,4 +21,13 @@
 			</div>
 		</div>
 	</body>
+	<script type="text/javascript">
+		$('#container').css('opacity', 0);
+		$(window).load(function() {
+			$('#container').css('opacity', 1);
+		});
+		$(document).ready(function() {
+  			setTimeout('$("#container").css("opacity", 1)', 1000);
+		});
+	</script>
 </html>
