@@ -74,7 +74,7 @@ body {
     url("fonts/apercu-light.otf") format("otf");
 }*/
 
-@font-face {
+/*@font-face {
     font-family: 'freyabold';
     src: url('fonts/freya-bold.eot');
     src: url('fonts/freya-bold.eot?#iefix') format('embedded-opentype'),
@@ -82,6 +82,18 @@ body {
          url('fonts/freya-bold.woff') format('woff'),
          url('fonts/freya-bold.ttf') format('truetype'),
          url('fonts/freya-bold.svg#freyabold') format('svg');
+    font-weight: normal;
+    font-style: normal;
+}*/
+
+@font-face {
+    font-family: 'freyamedium';
+    src: url('freya-medium.eot');
+    src: url('freya-medium.eot?#iefix') format('embedded-opentype'),
+         url('freya-medium.woff2') format('woff2'),
+         url('freya-medium.woff') format('woff'),
+         url('freya-medium.ttf') format('truetype'),
+         url('freya-medium.svg#freyamedium') format('svg');
     font-weight: normal;
     font-style: normal;
 }
@@ -126,7 +138,7 @@ h6 {
 
 	h1{
 		font-size: 350%;
-		font-family: 'freyabold', serif;
+		font-family: 'freyamedium', serif;
 		letter-spacing: 1px;
 		color: #000000;
 		text-transform: lowercase;
@@ -170,7 +182,7 @@ h6 {
 
 	h1{
 		font-size: 350%;
-		font-family: 'freyabold', serif;
+		font-family: 'freyamedium', serif;
 		letter-spacing: 1px;
 		color: #000000;
 		text-transform: lowercase;
@@ -213,7 +225,7 @@ h6 {
 
 	h1{
 		font-size: 350%;
-		font-family: 'freyabold', serif;
+		font-family: 'freyamedium', serif;
 		letter-spacing: 1px;
 		color: #000000;
 		text-transform: lowercase;
