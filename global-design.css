@@ -75,10 +75,17 @@ body {
 }*/
 
 @font-face {
-  font-family: 'Freya';
-  src: local('☺︎'),
-    url("fonts/freya-bold.ttf") format("ttf");
+    font-family: 'freyabold';
+    src: url('fonts/freya-bold.eot');
+    src: url('fonts/freya-bold.eot?#iefix') format('embedded-opentype'),
+         url('fonts/freya-bold.woff2') format('woff2'),
+         url('fonts/freya-bold.woff') format('woff'),
+         url('fonts/freya-bold.ttf') format('truetype'),
+         url('fonts/freya-bold.svg#freyabold') format('svg');
+    font-weight: normal;
+    font-style: normal;
 }
+
 
 h1:hover, h1:active {
 	color: #3200E1;
@@ -94,12 +101,19 @@ h2{
 
 h2:hover, h2:active {
 	text-decoration: line-through;
+	/*border-bottom: 2px solid black;
+	content: "";
+	left: 0;
+	margin-top: calc(2px / 2 * -1);
+	position: absolute;
+	right: 0;
+	top: 50%;*/
 }
 
 
 h6 {
 	font-size: 100%;
-	font-family: 'Apercu Light', sans-serif;
+	font-family: 'Apercu', sans-serif;
 	color: #cfcfd2;
 	text-align: center;
 	letter-spacing: 0.25px;
@@ -112,7 +126,7 @@ h6 {
 
 	h1{
 		font-size: 350%;
-		font-family: 'Freya', serif;
+		font-family: 'freyabold', serif;
 		letter-spacing: 1px;
 		color: #000000;
 		text-transform: lowercase;
@@ -156,7 +170,7 @@ h6 {
 
 	h1{
 		font-size: 350%;
-		font-family: 'Freya', serif;
+		font-family: 'freyabold', serif;
 		letter-spacing: 1px;
 		color: #000000;
 		text-transform: lowercase;
@@ -199,7 +213,7 @@ h6 {
 
 	h1{
 		font-size: 350%;
-		font-family: 'Freya', serif;
+		font-family: 'freyabold', serif;
 		letter-spacing: 1px;
 		color: #000000;
 		text-transform: lowercase;
