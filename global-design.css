@@ -88,12 +88,12 @@ body {
 
 @font-face {
     font-family: 'freyamedium';
-    src: url('freya-medium.eot');
-    src: url('freya-medium.eot?#iefix') format('embedded-opentype'),
-         url('freya-medium.woff2') format('woff2'),
-         url('freya-medium.woff') format('woff'),
-         url('freya-medium.ttf') format('truetype'),
-         url('freya-medium.svg#freyamedium') format('svg');
+    src: url('fonts/freya-medium.eot');
+    src: url('fonts/freya-medium.eot?#iefix') format('embedded-opentype'),
+         url('fonts/freya-medium.woff2') format('woff2'),
+         url('fonts/freya-medium.woff') format('woff'),
+         url('fonts/freya-medium.ttf') format('truetype'),
+         url('fonts/freya-medium.svg#freyamedium') format('svg');
     font-weight: normal;
     font-style: normal;
 }
