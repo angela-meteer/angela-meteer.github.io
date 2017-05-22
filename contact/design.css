@@ -4,8 +4,10 @@
 
 img {
 	width: 500px;
-	margin: 35px auto;
+	margin: 2em auto 1.5em;
 	display: block;
+	-webkit-transition: all 0.5s ease; /* Safari */
+	transition: all 0.5s ease;
 }
 
 #copy {
@@ -13,24 +15,25 @@ img {
 }
 
 p {
-	font-size: 200%;
+	font-size: 2em;
 	font-family: 'freyamedium', serif;
-	color: #000000;
 	text-align: center;
-	line-height: 120%;
+	line-height: 1.2;
 	width: 500px;
 	margin: 0% auto;
-	padding: 0px 2.5% 30px 2.5%;
+	padding: 0px 2.5% 1em 2.5%;
+	-webkit-transition: all 0.5s ease; /* Safari */
+	transition: all 0.5s ease;
 	/*background-color: yellow;*/
 }    
 
-#resume:hover, #resume:active {
+#resume:hover, #resume:active, #email:hover, #email:active{
 	color: #3200E1;
 	border-bottom: 2px solid #3200E1;
 }
 
 #social{
-	width: 268px;
+	width: 269px;
 	margin: 40px auto 0px auto;
 }
 
@@ -59,11 +62,49 @@ p {
 	padding: 14.5px 10px 5.5px 10px;
 }
 
-
 .fa:hover, .fa:active {
     color: #3200E1;
     border-color: #3200E1;
 }
+
+
+@media only screen and (min-width: 521px) and (max-width: 720px) {
+
+	img {
+		width: 400px;
+		margin: 5em auto 1.5em;
+		display: block;
+	}
+
+	p {
+		font-size: 1.6em;
+		width: 400px;
+	}
+}
+
+
+@media only screen and (max-width: 520px) {
+
+	img {
+		width: 290px;
+		margin: 8em auto 1.5em;
+		display: block;
+	}
+
+	p {
+		font-size: 1.4em;
+		width: 300px;
+	}
+
+	#social{
+		margin-bottom: 10%;
+	}
+
+}
+
+
+
+
 
 
 

@@ -58,33 +58,62 @@ a {
 	width: 100%;
 }
 
-body {
-	background: #FDF8F5;
-}
-
 @font-face {
   font-family: 'Apercu';
   src: local('☺︎'),
     url("fonts/apercu-medium-webfont.ttf") format("ttf");
 }
 
-/*@font-face {
-  font-family: 'Apercu Light';
-  src: local('☺︎'),
-    url("fonts/apercu-light.otf") format("otf");
-}*/
+
+body {
+	background: #FDF8F5;
+	font-family: 'Apercu', sans-serif;
+	font-size: 1em;
+}
+
+@font-face {
+	font-family: 'Apercu-Light';
+	src: url('../fonts/Apercu-Light.eot');
+	src: local('☺'),
+		url('../fonts/Apercu-Light.woff') format('woff'),
+		url('../fonts/Apercu-Light.ttf') format('truetype'),
+		url('../fonts/Apercu-Light.svg') format('svg');
+	font-weight: normal;
+	font-style: normal;
+}
+
+@font-face {
+	font-family: 'Apercu';
+	src: url('../fonts/Apercu.eot');
+	src: local('☺'),
+		url('../fonts/Apercu.woff') format('woff'),
+		url('../fonts/Apercu.ttf') format('truetype'),
+		url('../fonts/Apercu.svg') format('svg');
+	font-weight: normal;
+	font-style: normal;
+}
 
 /*@font-face {
-    font-family: 'freyabold';
-    src: url('fonts/freya-bold.eot');
-    src: url('fonts/freya-bold.eot?#iefix') format('embedded-opentype'),
-         url('fonts/freya-bold.woff2') format('woff2'),
-         url('fonts/freya-bold.woff') format('woff'),
-         url('fonts/freya-bold.ttf') format('truetype'),
-         url('fonts/freya-bold.svg#freyabold') format('svg');
-    font-weight: normal;
-    font-style: normal;
+	font-family: 'Apercu-Medium';
+	src: url('../fonts/Apercu-Medium.eot');
+	src: local('☺'),
+		url('../fonts/Apercu-Medium.woff') format('woff'),
+		url('../fonts/Apercu-Medium.ttf') format('truetype'),
+		url('../fonts/Apercu-Medium.svg') format('svg');
+	font-weight: normal;
+	font-style: normal;
 }*/
+
+@font-face {
+	font-family: 'Apercu-Bold';
+	src: url('../fonts/Apercu-Bold.eot');
+	src: local('☺'),
+		url('../fonts/Apercu-Bold.woff') format('woff'),
+		url('../fonts/Apercu-Bold.ttf') format('truetype'),
+		url('../fonts/Apercu-Bold.svg') format('svg');
+	font-weight: bold;
+	font-style: normal;
+}
 
 @font-face {
     font-family: 'freyamedium';
@@ -98,79 +127,145 @@ body {
     font-style: normal;
 }
 
+h1{
+		font-size: 3.5em;
+		font-family: 'freyamedium', serif;
+		letter-spacing: 1px;
+		color: #000000;
+		text-transform: lowercase;
+		text-align: center;
+		-webkit-transition: all 0.25s ease; /* Safari */
+	    transition: all 0.25s ease;
+	}
 
 h1:hover, h1:active {
 	color: #3200E1;
 }
 
 h2{
-	font-size: 120%;
+	font-size: 1.2em;
 	font-family: 'Apercu', sans-serif;
 	letter-spacing: 1px;
 	color: #000000;
 	text-transform: uppercase;
 }
 
-h2:hover, h2:active {
-	text-decoration: line-through;
-	/*border-bottom: 2px solid black;
-	content: "";
-	left: 0;
-	margin-top: calc(2px / 2 * -1);
-	position: absolute;
-	right: 0;
-	top: 50%;*/
+#work {
+	-ms-transform: rotate(-90deg); /* IE 9 */
+    -webkit-transform: rotate(-90deg); /* Chrome, Safari, Opera */
+    transform: rotate(-90deg);
+    -webkit-transition: all 1s ease; /* Safari */
+    transition: all 1s ease;
+}
+
+#contact {
+	-ms-transform: rotate(90deg); /* IE 9 */
+    -webkit-transform: rotate(90deg); /* Chrome, Safari, Opera */
+    transform: rotate(90deg);
+    -webkit-transition: all 1s ease; /* Safari */
+    transition: all 1s ease;
+}
+
+.strike:hover, .strike:active{
+    position: relative;
+}
+
+.strike:hover::after, .strike:active::after{
+    content: '';
+    border-bottom: 3px solid black;
+    position: absolute;
+    left: 0;
+    top: 42%;
+    width: 100%;
+}
+
+
+h3 {
+	font-size: 2.4em;
+	font-family: 'Apercu-Bold', sans-serif;
+	color: black;
+	-webkit-transition: all 0.25s ease; /* Safari */
+    transition: all 0.25s ease;
+}
+
+h4{
+	font-size: 1.6em;
+	font-family: 'freyamedium', serif;
+	color: black;
+	line-height: 2;
+	-webkit-transition: all 0.25s ease; /* Safari */
+    transition: all 0.25s ease;
 }
 
 
 h6 {
-	font-size: 100%;
-	font-family: 'Apercu', sans-serif;
+	font-size: 1em;
+	font-family: 'Apercu-Light', sans-serif;
 	color: #cfcfd2;
 	text-align: center;
 	letter-spacing: 0.25px;
 	padding: 10% 1% 0px 1%;
 }
 
+p {
+	font-size: 1em;
+	font-family: 'Apercu', sans-serif;
+	color: black;
+	line-height: 1.35;
+	padding-top: 1em;
+}
+
+#project {
+	padding: 7.5% 10%;
+}
+
+#proj-description {
+	width: 100%;
+	margin-top: 10%;
+	-webkit-transition: all 0.25s ease; /* Safari */
+    transition: all 0.25s ease;
+}
+
+#last_p {
+	margin-bottom: 15%;
+}
+
+.img-full {
+	width: 100%;
+	margin: 0px auto;
+	padding: 2% 0%;
+}
+
 /* desktop style */
 
-@media only screen and (min-width: 941px) {
+@media only screen and (min-width: 921px) {
 
 	h1{
-		font-size: 350%;
-		font-family: 'freyamedium', serif;
-		letter-spacing: 1px;
-		color: #000000;
-		text-transform: lowercase;
-		text-align: center;
 		position: fixed;
 		top: 2.5%;
-		left: 30%;
-		width: 40%;
-		-webkit-transition: all 0.25s ease; /* Safari */
-	    transition: all 0.25s ease;
+		left: 29%;
+		width: 42%;
 	}
 
 	#work {
 		position: fixed;
 		top: 50%;
 		left: 1.5%;
-		-ms-transform: rotate(-90deg); /* IE 9 */
-	    -webkit-transform: rotate(-90deg); /* Chrome, Safari, Opera */
-	    transform: rotate(-90deg);
-	    -webkit-transition: all 1s ease; /* Safari */
-	    transition: all 1s ease;
 	}
 
 	#contact {
 		position: fixed;
 		top: 50%;
 		right: .25%;
-		-ms-transform: rotate(90deg); /* IE 9 */
-	    -webkit-transform: rotate(90deg); /* Chrome, Safari, Opera */
-	    transform: rotate(90deg);
-	    -webkit-transition: all 1s ease; /* Safari */
-	    transition: all 1s ease;
+	}
+
+	.proj-description {
+		width: 47.75%;
+	    margin: 0px 1%;
+    	overflow: auto;
+	    float: left;
+	    clear: all;
+	    /*background-color: yellow;*/
 	}
 
 }
@@ -178,86 +273,82 @@ h6 {
 
 /* mid style */
 
-@media only screen and (min-width: 551px) and (max-width: 940px) {
+@media only screen and (min-width: 501px) and (max-width: 920px) {
 
 	h1{
-		font-size: 350%;
-		font-family: 'freyamedium', serif;
-		letter-spacing: 1px;
-		color: #000000;
-		text-transform: lowercase;
-		text-align: center;
 		position: fixed;
 		top: 2.5%;
-		left: 12.5%;
-		width: 75%;
-		-webkit-transition: all 0.25s ease; /* Safari */
-	    transition: all 0.25s ease;
+		left: 13.5%;
+		width: 73%;
 	}
 
 	#work {
 		position: fixed;
 		top: 50%;
 		left: 0.5%;
-		-ms-transform: rotate(-90deg); /* IE 9 */
-	    -webkit-transform: rotate(-90deg); /* Chrome, Safari, Opera */
-	    transform: rotate(-90deg);
-	    -webkit-transition: all 1s ease; /* Safari */
-	    transition: all 1s ease;
 	}
 
 	#contact {
 		position: fixed;
 		top: 50%;
 		right: -1.5%;
-		-ms-transform: rotate(90deg); /* IE 9 */
-	    -webkit-transform: rotate(90deg); /* Chrome, Safari, Opera */
-	    transform: rotate(90deg);
-	    -webkit-transition: all 1s ease; /* Safari */
-	    transition: all 1s ease;
+	}
+
+	#proj-description {
+		margin-top: 12.5%;
+	}
+
+	.proj-description {
+		width: 100%;
+	    margin: 0px;
+	    float: left;
+	    clear: all;
+	    /*background-color: yellow;*/
 	}
 
 }
 
 /* mobile style */
 
-@media only screen and (max-width: 550px) {
+@media only screen and (max-width: 500px) {
 
 	h1{
-		font-size: 350%;
-		font-family: 'freyamedium', serif;
-		letter-spacing: 1px;
-		color: #000000;
-		text-transform: lowercase;
-		text-align: center;
 		position: fixed;
 		top: 2.5%;
-		left: 12.5%;
-		width: 75%;
-		-webkit-transition: all 0.25s ease; /* Safari */
-	    transition: all 0.25s ease;
+		left: 25%;
+		width: 50%;
 	}
 
 	#work {
 		position: fixed;
 		top: 50%;
 		left: 0%;
-		-ms-transform: rotate(-90deg); /* IE 9 */
-	    -webkit-transform: rotate(-90deg); /* Chrome, Safari, Opera */
-	    transform: rotate(-90deg);
-	    -webkit-transition: all 1s ease; /* Safari */
-	    transition: all 1s ease;
 	}
 
 	#contact {
 		position: fixed;
 		top: 50%;
 		right: -3.5%;
-		-ms-transform: rotate(90deg); /* IE 9 */
-	    -webkit-transform: rotate(90deg); /* Chrome, Safari, Opera */
-	    transform: rotate(90deg);
-	    -webkit-transition: all 1s ease; /* Safari */
-	    transition: all 1s ease;
+	}
+
+	#proj-description {
+		margin-top: 40%;
+	}
+
+	.proj-description {
+		width: 86%;
+	    margin: 0px;
+	    padding-left: 7%;
+	    padding-right: 7%;
+	    float: left;
+	    clear: all;
+	    /*background-color: yellow;*/
+	}
+
+	.img-full {
+		width: 86%;
+		margin: 0px auto;
+		padding: 3% 7%;
 	}
 
 }

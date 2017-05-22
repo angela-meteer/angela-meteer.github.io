@@ -1,0 +1,42 @@
+<html>
+	<head>
+		<title>Angela Meteer&mdash;portfolio</title>
+		<link rel="stylesheet" type="text/css" href="../global-design.css">
+		<link rel="stylesheet" type="text/css" href="design.css">
+		<script src="//code.jquery.com/jquery-1.11.3.min.js"></script>
+		<link rel="shortcut icon" href="../blue_a.ico" type="image/x-icon">
+	</head>
+	<body>
+		<div id="container">
+			<a id="name" href="../"><h1>Angela Meteer</h1></a>
+			<h2 id="work"><a href="../"><span class="strike">Work</span></a></h2>
+			<h2 id="contact"><a href="../contact"><span class="strike">Contact</span></a></h2>
+			<div id="project">
+				<div id="proj-description">
+					<div class="proj-description">
+						<h3 id="title">#MonumentalWomen</h3>
+						<h4>2016&mdash;Digital</h4>
+					</div>
+					<div class="proj-description">
+						<p id="last_p">The Elizabeth Cady Stanton &amp; Susan B. Anthony Statue Fund (yeah, it&#8217;s a mouthful) is a nonprofit, all-volunteer organization dedicated to placing the first statue of a historical woman in New York City&#8217;s Central Park. As an intern at Thinkso Creative, I was responsible for creating Instagram content and brand collateral for the fund&#8217;s Monumental Women campaign&mdash;part of a larger rebrand for the organization.</p>
+					</div>
+				</div>
+				<img class="img-full" src="images/01.png">
+				<img class="img-full" src="images/02.png">
+				<img class="img-full" src="images/03.gif">
+				<img class="img-full" src="images/04.gif">
+				<iframe id="video" src="https://player.vimeo.com/video/218328095" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen></iframe>
+				<h6>&copy; 2016. All images property of Angela Meteer.</h6>
+			</div>
+		</div>
+	</body>
+	<script type="text/javascript">
+		$('#container').css('opacity', 0);
+		$(window).load(function() {
+			$('#container').css('opacity', 1);
+		});
+		$(document).ready(function() {
+   			setTimeout('$("#container").css("opacity", 1)', 2500);
+		});
+	</script>
+</html>
