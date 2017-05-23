@@ -58,6 +58,54 @@ img {
     background-size: 100%;
 }
 
+#img5 {
+    background: url("images/05.png") no-repeat;
+    background-size: 100%;
+    -webkit-transition: all 0.75s ease; /* Safari */
+    transition: all 0.75s ease;
+}
+
+#img5:hover, #img5:active {
+    background: url("images/05-c.png") no-repeat;
+    background-size: 100%;
+}
+
+#img6 {
+    background: url("images/06.png") no-repeat;
+    background-size: 100%;
+    -webkit-transition: all 0.75s ease; /* Safari */
+    transition: all 0.75s ease;
+}
+
+#img6:hover, #img6:active {
+    background: url("images/06-c.png") no-repeat;
+    background-size: 100%;
+}
+
+#img7 {
+    background: url("images/07.png") no-repeat;
+    background-size: 100%;
+    -webkit-transition: all 0.75s ease; /* Safari */
+    transition: all 0.75s ease;
+}
+
+#img7:hover, #img7:active {
+    background: url("images/07-c.png") no-repeat;
+    background-size: 100%;
+}
+
+#img8 {
+    background: url("images/08.png") no-repeat;
+    background-size: 100%;
+    -webkit-transition: all 0.75s ease; /* Safari */
+    transition: all 0.75s ease;
+}
+
+#img8:hover, #img8:active {
+    background: url("images/08-c.png") no-repeat;
+    background-size: 100%;
+}
+
 
 /* mid style */
 
