@@ -1,8 +1,5 @@
 #video {
-	margin: 2% auto;
-	width: 640px;
 	height: 640px;
-	display: block;
 	-webkit-transition: all 0.5s ease; /* Safari */
     transition: all 0.5s ease;
 }
@@ -28,8 +25,7 @@
 	}
 
 	#video {
-		width: 400px;
-		height: 400px;
+		height: 420px;
 	}
 }
 
@@ -44,9 +40,9 @@
 	}
 
 	#video {
-		margin: 3% auto;
-		padding: 0px 7%;
-		width: 300px;
-		height: 300px;
+		width: 86%;
+		margin: 0px auto;
+		height: 200px;
+		padding: 3% 7%;
 	}
 }
