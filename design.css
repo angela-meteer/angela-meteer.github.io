@@ -1,6 +1,6 @@
 
 #images {
-    margin: 7.5%;
+    margin: 10%;
     -webkit-transition: all 0.75s ease; /* Safari */
     transition: all 0.75s ease;
 }
@@ -112,7 +112,7 @@ img {
 @media only screen and (min-width: 511px) and (max-width: 920px) {
     
     #images {
-        margin: 12.5% 10% 7.5%;
+        margin: 15% 12.5% 10%;
     }
 
     img {
@@ -128,7 +128,7 @@ img {
 @media only screen and (max-width: 510px) {
 
     #images {
-        margin: 35% 15% 7.5%;
+        margin: 37.5% 15% 10%;
     }
 
     img {

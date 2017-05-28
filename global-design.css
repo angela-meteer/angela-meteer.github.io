@@ -216,7 +216,9 @@ p {
 }
 
 #project {
-	padding: 7.5% 10%;
+	padding: 10% 12.5%;
+	-webkit-transition: all 0.25s ease; /* Safari */
+    transition: all 0.25s ease;
 }
 
 #proj-description {
@@ -227,7 +229,7 @@ p {
 }
 
 #last_p {
-	margin-bottom: 15%;
+	margin-bottom: 20%;
 }
 
 .img-full {
@@ -292,6 +294,10 @@ p {
 		position: fixed;
 		top: 50%;
 		right: -1.5%;
+	}
+
+	#project {
+		padding: 10% 15%;
 	}
 
 	#proj-description {
