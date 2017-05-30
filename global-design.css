@@ -215,6 +215,11 @@ p {
 	padding-top: 1em;
 }
 
+.caption {
+	padding-top: 0.5%;
+	padding-bottom: 2%;
+}
+
 #project {
 	padding: 10% 12.5%;
 	-webkit-transition: all 0.25s ease; /* Safari */

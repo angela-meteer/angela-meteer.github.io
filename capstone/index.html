@@ -1,0 +1,52 @@
+<html>
+	<head>
+		<title>Angela Meteer&mdash;portfolio</title>
+		<link rel="stylesheet" type="text/css" href="../global-design.css">
+		<link rel="stylesheet" type="text/css" href="design.css">
+		<script src="//code.jquery.com/jquery-1.11.3.min.js"></script>
+		<link rel="shortcut icon" href="../blue_a.ico" type="image/x-icon">
+	</head>
+	<body>
+		<div id="container">
+			<a id="name" href="../"><h1>Angela Meteer</h1></a>
+			<h2 id="work"><a href="../"><span class="strike">Work</span></a></h2>
+			<h2 id="contact"><a href="../contact"><span class="strike">Contact</span></a></h2>
+			<div id="project">
+				<div id="proj-description">
+					<div class="proj-description">
+						<h3 id="title">I CAN/NOT</h3>
+						<h4>2017&mdash;Digital&mdash;Installation</h4>
+					</div>
+					<div class="proj-description">
+						<p>One of the great obstacles in a creative profession is learning how to keep working when everything you make seems terrible. Mastery of any kind comes through years of study and practice, so we all begin with less-than-desirable results. We know we will get better. We know it takes time. But making bad work is still miserable.</p>
+						<p>My senior capstone project is an exploration of choices we make in times of low creative confidence and how these help or hinder motivation. Psychological studies I researched indicate that we have a substantial amount of control over our motivation and our willpower. The way we view ourselves and our abilities, the way we respond to failure and disappointment, and the goals we choose to focus on all contribute to our ability to get things done. To visualize this cause and effect relationship, I chose to build an environment where a user's response to a questionnaire would immediately effect his/her surroundings.</p>
+						<p>The resulting installation incorporates a desktop computer and two wall projections&mdash;the desktop houses the questionnaire, one projector shows the user's unique response, and the other cycles through past responses. The questions are reflective of my research. There are no definitively right and wrong answers, but each answer leads to either an increase or a decrease in motivational levels. The image projected on the wall is altered in accordance with these answers, representative of an individual's level of motivation.</p>
+						<p id="last_p">I built the questionnaire with HTML/CSS, the wall projection in p5.js, and sent data between the two pages with JavaScript.</p>
+					</div>
+				</div>
+				<img class="img-full" src="images/01.png">
+				<img class="img-full" src="images/02.png">
+				<img class="img-full" src="images/03.gif">
+				<p class="caption">Web interface of questionnaire.</p>
+				<img class="img-full" src="images/04.gif">
+				<p class="caption">User-generated images.</p>
+				<img class="img-full" src="images/05.png">
+				<p class="caption">My personal result.</p>
+				<img class="img-full" src="images/06.png">
+				<img class="img-full" src="images/07.png">
+				<img class="img-full" src="images/08.png">
+				<img class="img-full" src="images/09.gif">
+				<h6>&copy; 2016. All images property of Angela Meteer.</h6>
+			</div>
+		</div>
+	</body>
+	<script type="text/javascript">
+		$('#container').css('opacity', 0);
+		$(window).load(function() {
+			$('#container').css('opacity', 1);
+		});
+		$(document).ready(function() {
+   			setTimeout('$("#container").css("opacity", 1)', 2500);
+		});
+	</script>
+</html>
