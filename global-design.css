@@ -181,7 +181,7 @@ h2{
 
 
 h3 {
-	font-size: 2.4em;
+	font-size: 2em;
 	font-family: 'Apercu-Bold', sans-serif;
 	color: black;
 	-webkit-transition: all 0.25s ease; /* Safari */
@@ -218,6 +218,7 @@ p {
 .caption {
 	padding-top: 0.5%;
 	padding-bottom: 2%;
+	font-size: .85em;
 }
 
 #project {
