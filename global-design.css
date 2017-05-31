@@ -223,8 +223,8 @@ p {
 
 #project {
 	padding: 10% 12.5%;
-	-webkit-transition: all 0.25s ease; /* Safari */
-    transition: all 0.25s ease;
+	-webkit-transition: all 0.5s ease; /* Safari */
+    transition: all 0.5s ease;
 }
 
 #proj-description {
