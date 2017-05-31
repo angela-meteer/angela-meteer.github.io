@@ -244,9 +244,47 @@ p {
 	padding: 2% 0%;
 }
 
+/* huge monitor */
+@media only screen and (min-width: 1461px) {
+
+	#project {
+		width: 1150px;
+		margin: 0px auto;
+	}
+	
+	h1{
+		position: fixed;
+		top: 2.5%;
+		left: 29%;
+		width: 42%;
+	}
+
+	#work {
+		position: fixed;
+		top: 50%;
+		left: 1.5%;
+	}
+
+	#contact {
+		position: fixed;
+		top: 50%;
+		right: .25%;
+	}
+
+	.proj-description {
+		width: 47.75%;
+	    margin: 0px 1%;
+    	overflow: auto;
+	    float: left;
+	    clear: all;
+	    /*background-color: yellow;*/
+	}
+	
+}
+
 /* desktop style */
 
-@media only screen and (min-width: 921px) {
+@media only screen and (min-width: 921px) and (max-width: 1460px) {
 
 	h1{
 		position: fixed;
