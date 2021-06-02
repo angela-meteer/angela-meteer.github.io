@@ -1,3 +1,5 @@
+/* css reset */
+
 /* http://meyerweb.com/eric/tools/css/reset/ 
    v2.0 | 20110126
    License: none (public domain)
@@ -47,358 +49,88 @@ table {
 	border-spacing: 0;
 }
 
-a {
-  color: black;
-  text-decoration: none;
-}
-
-/*my css*/
-
-#container {
-	width: 100%;
-}
-
-@font-face {
-  font-family: 'Apercu';
-  src: local('☺︎'),
-    url("fonts/apercu-medium-webfont.ttf") format("ttf");
-}
-
+/* my styling */
 
 body {
-	background: #FDF8F5;
-	font-family: 'Apercu', sans-serif;
-	font-size: 1em;
+    opacity: 0;
+}
+ 
+body.all-loaded {
+    opacity: 1;
 }
 
-@font-face {
-	font-family: 'Apercu-Light';
-	src: url('../fonts/Apercu-Light.eot');
-	src: local('☺'),
-		url('../fonts/Apercu-Light.woff') format('woff'),
-		url('../fonts/Apercu-Light.ttf') format('truetype'),
-		url('../fonts/Apercu-Light.svg') format('svg');
-	font-weight: normal;
-	font-style: normal;
+#gradient {
+	height: 100%;
+    background: linear-gradient(18deg, #ff4db4, #f235f3, #EFBEFF, #ffcea6, #a1d38c, #139857, #139857);
+    background-size: 1400% 1400%;
+
+    -webkit-animation: AnimationName 30s linear infinite;
+    -moz-animation: AnimationName 30s linear infinite;
+    animation: AnimationName 30s linear infinite;
 }
 
-@font-face {
-	font-family: 'Apercu';
-	src: url('../fonts/Apercu.eot');
-	src: local('☺'),
-		url('../fonts/Apercu.woff') format('woff'),
-		url('../fonts/Apercu.ttf') format('truetype'),
-		url('../fonts/Apercu.svg') format('svg');
-	font-weight: normal;
-	font-style: normal;
+@-webkit-keyframes AnimationName {
+    0%{background-position:51% 0%}
+    50%{background-position:50% 100%}
+    100%{background-position:51% 0%}
 }
-
-/*@font-face {
-	font-family: 'Apercu-Medium';
-	src: url('../fonts/Apercu-Medium.eot');
-	src: local('☺'),
-		url('../fonts/Apercu-Medium.woff') format('woff'),
-		url('../fonts/Apercu-Medium.ttf') format('truetype'),
-		url('../fonts/Apercu-Medium.svg') format('svg');
-	font-weight: normal;
-	font-style: normal;
-}*/
-
-@font-face {
-	font-family: 'Apercu-Bold';
-	src: url('../fonts/Apercu-Bold.eot');
-	src: local('☺'),
-		url('../fonts/Apercu-Bold.woff') format('woff'),
-		url('../fonts/Apercu-Bold.ttf') format('truetype'),
-		url('../fonts/Apercu-Bold.svg') format('svg');
-	font-weight: bold;
-	font-style: normal;
+@-moz-keyframes AnimationName {
+    0%{background-position:51% 0%}
+    50%{background-position:50% 100%}
+    100%{background-position:51% 0%}
 }
-
-@font-face {
-    font-family: 'freyamedium';
-    src: url('fonts/freya-medium.eot');
-    src: url('fonts/freya-medium.eot?#iefix') format('embedded-opentype'),
-         url('fonts/freya-medium.woff2') format('woff2'),
-         url('fonts/freya-medium.woff') format('woff'),
-         url('fonts/freya-medium.ttf') format('truetype'),
-         url('fonts/freya-medium.svg#freyamedium') format('svg');
-    font-weight: normal;
-    font-style: normal;
-}
-
-h1{
-		font-size: 3.5em;
-		font-family: 'freyamedium', serif;
-		letter-spacing: 1px;
-		color: #000000;
-		text-transform: lowercase;
-		text-align: center;
-		-webkit-transition: all 0.25s ease; /* Safari */
-	    transition: all 0.25s ease;
-	}
-
-h1:hover, h1:active {
-	color: #3200E1;
-}
-
-h2{
-	font-size: 1.2em;
-	font-family: 'Apercu', sans-serif;
-	letter-spacing: 1px;
-	color: #000000;
-	text-transform: uppercase;
-}
-
-#work {
-	-ms-transform: rotate(-90deg); /* IE 9 */
-    -webkit-transform: rotate(-90deg); /* Chrome, Safari, Opera */
-    transform: rotate(-90deg);
-    -webkit-transition: all 1s ease; /* Safari */
-    transition: all 1s ease;
-}
-
-#contact {
-	-ms-transform: rotate(90deg); /* IE 9 */
-    -webkit-transform: rotate(90deg); /* Chrome, Safari, Opera */
-    transform: rotate(90deg);
-    -webkit-transition: all 1s ease; /* Safari */
-    transition: all 1s ease;
-}
-
-.strike:hover, .strike:active{
-    position: relative;
-}
-
-.strike:hover::after, .strike:active::after{
-    content: '';
-    border-bottom: 3px solid black;
-    position: absolute;
-    left: 0;
-    top: 42%;
-    width: 100%;
+@keyframes AnimationName {
+    0%{background-position:51% 0%}
+    50%{background-position:50% 100%}
+    100%{background-position:51% 0%}
 }
 
 
-h3 {
-	font-size: 2em;
-	font-family: 'Apercu-Bold', sans-serif;
-	color: black;
-	-webkit-transition: all 0.25s ease; /* Safari */
-    transition: all 0.25s ease;
-}
-
-h4{
-	font-size: 1.6em;
-	font-family: 'freyamedium', serif;
-	color: black;
-	line-height: 2;
-	-webkit-transition: all 0.25s ease; /* Safari */
-    transition: all 0.25s ease;
-}
-
-
-h6 {
-	font-size: 1em;
-	font-family: 'Apercu-Light', sans-serif;
-	color: #cfcfd2;
+#container {
+	margin-left: auto;
+	margin-right: auto;
+	margin-top: 0px;
+	width: 92%;
+	max-width: 1200px;
+	height: 97%;
 	text-align: center;
-	letter-spacing: 0.25px;
-	padding: 10% 1% 0px 1%;
+  	position: relative;
+  	font-family: 'neue-haas-grotesk-text', sans-serif;
 }
 
-p {
-	font-size: 1em;
-	font-family: 'Apercu', sans-serif;
-	color: black;
-	line-height: 1.35;
-	padding-top: 1em;
+.invisible {
+	color: rgba(0, 0, 0, 0);
 }
 
-.caption {
-	padding-top: 0.5%;
-	padding-bottom: 2%;
-	font-size: .85em;
+.name {
+	font-weight: 400;
+	text-transform: uppercase;
+	padding-top: 50px;
+	font-size: 16px;
+	letter-spacing: 1px;
+	-webkit-transition: all 0.1s ease; /* Safari */
+    transition: all 0.1s ease;
+    cursor: default;
 }
 
-#project {
-	padding: 10% 12.5%;
-	-webkit-transition: all 0.5s ease; /* Safari */
-    transition: all 0.5s ease;
+h1:hover {
+	letter-spacing: 3px;
 }
 
-#proj-description {
-	width: 100%;
-	margin-top: 10%;
-	-webkit-transition: all 0.25s ease; /* Safari */
-    transition: all 0.25s ease;
+#brb {
+	font-weight: 700;
+	font-style:  italic;
+	font-size: 100px;
+	cursor: default;
 }
 
-#last_p {
-	margin-bottom: 20%;
-}
-
-.img-full {
-	width: 100%;
-	margin: 0px auto;
-	padding: 2% 0%;
-}
-
-/* huge monitor */
-@media only screen and (min-width: 1461px) {
-
-	#project {
-		width: 1050px;
-		margin: 0px auto;
-	}
-	
-	h1{
-		position: fixed;
-		top: 2.5%;
-		left: 29%;
-		width: 42%;
-	}
-
-	#work {
-		position: fixed;
-		top: 50%;
-		left: 1.5%;
-	}
-
-	#contact {
-		position: fixed;
-		top: 50%;
-		right: .25%;
-	}
-
-	.proj-description {
-		width: 47.75%;
-	    margin: 0px 1%;
-    	overflow: auto;
-	    float: left;
-	    clear: all;
-	    /*background-color: yellow;*/
-	}
-	
-}
-
-/* desktop style */
-
-@media only screen and (min-width: 921px) and (max-width: 1460px) {
-
-	h1{
-		position: fixed;
-		top: 2.5%;
-		left: 29%;
-		width: 42%;
-	}
-
-	#work {
-		position: fixed;
-		top: 50%;
-		left: 1.5%;
-	}
-
-	#contact {
-		position: fixed;
-		top: 50%;
-		right: .25%;
-	}
-
-	.proj-description {
-		width: 47.75%;
-	    margin: 0px 1%;
-    	overflow: auto;
-	    float: left;
-	    clear: all;
-	    /*background-color: yellow;*/
-	}
-
+#brb h2 {
+  margin: 0;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
 }
 
 
-/* mid style */
 
-@media only screen and (min-width: 501px) and (max-width: 920px) {
-
-	h1{
-		position: fixed;
-		top: 2.5%;
-		left: 13.5%;
-		width: 73%;
-	}
-
-	#work {
-		position: fixed;
-		top: 50%;
-		left: 0.5%;
-	}
-
-	#contact {
-		position: fixed;
-		top: 50%;
-		right: -1.5%;
-	}
-
-	#project {
-		padding: 10% 15%;
-	}
-
-	#proj-description {
-		margin-top: 12.5%;
-	}
-
-	.proj-description {
-		width: 100%;
-	    margin: 0px;
-	    float: left;
-	    clear: all;
-	    /*background-color: yellow;*/
-	}
-
-}
-
-/* mobile style */
-
-@media only screen and (max-width: 500px) {
-
-	h1{
-		position: fixed;
-		top: 2.5%;
-		left: 25%;
-		width: 50%;
-	}
-
-	#work {
-		position: fixed;
-		top: 50%;
-		left: 0%;
-	}
-
-	#contact {
-		position: fixed;
-		top: 50%;
-		right: -3.5%;
-	}
-
-	#proj-description {
-		margin-top: 40%;
-	}
-
-	.proj-description {
-		width: 86%;
-	    margin: 0px;
-	    padding-left: 7%;
-	    padding-right: 7%;
-	    float: left;
-	    clear: all;
-	    /*background-color: yellow;*/
-	}
-
-	.img-full {
-		width: 86%;
-		margin: 0px auto;
-		padding: 3% 7%;
-	}
-
-}
