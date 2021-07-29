@@ -1,0 +1,34 @@
+<html>
+	<head>
+		<title>Angela Meteer &mdash; info</title>
+		<link rel="stylesheet" type="text/css" href="../global-design.css">
+		<link rel="stylesheet" href="https://use.typekit.net/kht0auh.css">
+		<script src="//code.jquery.com/jquery-1.11.3.min.js"></script>
+		<script type="text/javascript" src="script.js"></script>
+		<meta name="pinterest" content="nopin"/>
+		<link rel="shortcut icon" href="../lightning.ico" type="image/x-icon">
+	</head>
+	<body>
+		<div id="container">
+			<nav class="nav-top"><a href="../"><h1>Angela Meteer</h1></a><a class="info" href="#">Info</a></nav>
+			<div class="columns">
+				<div class="bio">
+					<p>Currently at <a class="in-text-link" href="https://www.glossier.com/" target="_blank">Glossier</a>. NYC based (usually).</p>
+					<p><br>A few of my favorite things: <a class="bio-link" id="bio-trees" href="#">big trees</a>, <a class="bio-link" id="bio-plane" href="#">big airplanes</a>, <a class="bio-link" id="bio-corn" href="#">baby corn</a>, <a class="bio-link" id="bio-emmie" href="#">my baby girl</a>, <a class="bio-link" id="bio-pasta" href="#">fresh pasta</a>, and <a class="bio-link" id="bio-mani" href="#">DIY manicures</a>.</p>
+				</div>
+				<div class="bio-image"><img class="me" src="images/me.jpg" width="100%"></a>
+				</div>
+				<footer><p>.</p></footer>
+			</div>
+		</div>
+	</body>
+	<script type="text/javascript">
+		$('#container').css('opacity', 0);
+		$(window).load(function() {
+			$('#container').css('opacity', 1);
+		});
+		$(document).ready(function() {
+   			setTimeout('$("#container").css("opacity", 1)', 5000);
+		});
+	</script>
+</html>

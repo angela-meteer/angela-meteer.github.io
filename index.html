@@ -1,4 +1,5 @@
-<head>
+<html>
+	<head>
 		<title>Angela Meteer &mdash; portfolio</title>
 		<link rel="stylesheet" type="text/css" href="global-design.css">
 		<link rel="stylesheet" href="https://use.typekit.net/kht0auh.css">
@@ -8,10 +9,53 @@
 		<link rel="shortcut icon" href="lightning.ico" type="image/x-icon">
 	</head>
 	<body>
-		<div id="gradient">
-			<div id="container">
-				<h1 class="name">Angela Meteer</h1>
-				<div id="brb"><h2>&ast;brb&ast;</h2></div>
+		<div id="container">
+			<nav class="nav-top"><a href="#"><h1>Angela Meteer</h1></a><a class="info" href="info/">Info</a></nav>
+			<div class="columns">
+				<nav class="nav-left">
+					<div class="category">
+						<a href="#">Glossier</a><br>
+		  				<a class="project-name" href="vote/">I'm Voting</a><br>
+		  				<a class="project-name" href="london-ooh/">London OOH</a><br>
+		  				<a class="project-name" href="stickers/">Stickers</a><br>
+		  				<a class="project-name" href="camp/">Camp Glossier</a><br>
+		  				<a class="project-name" href="seattle-stranger/">Seattle Stranger</a><br>
+		  				<a class="project-name" href="motion/">Motion</a><br>
+		  				<a class="project-name" href="emails/">Emails</a><br>
+		  			</div>
+		  			<div class="category">
+		  				<a href="#jpg-emails">Student Work</a><br>
+		  				<!-- <a class="project-name" href="monumental-women/">Monumental Women</a><br>
+		  				<a class="project-name" href="capstone/">I Can/Not</a><br>
+		  				<a class="project-name" href="aesthetica/">Aesthetica</a><br>
+		  				<a class="project-name" href="reel/">Student Reel</a> -->
+		  			</div>
+	  			</nav>
+				<div class="content-container">
+					<a href="london-ooh/"><img class="project-jpg" id="jpg-london" src="images/rect-1.png" width="60%"></a>
+					<a href="vote/"><img class="project-jpg" id="jpg-vote" src="images/square.png" width="30%"></a>
+					<a href="stickers/"><img class="project-jpg" id="jpg-stickers" src="images/rect-2.png" width="35%"></a>
+					<a href="camp/"><img class="project-jpg" id="jpg-camp" src="images/square.png" width="40%"></a>
+					<a href="seattle-stranger/"><img class="project-jpg" id="jpg-stranger" src="images/rect-3.png" width="40%"></a>
+					<a href="motion/"><img class="project-jpg" id="jpg-motion" src="images/square.png" width="25%"></a>
+					<a href="monumental-women/"><img class="project-jpg" id="jpg-mw" src="images/square.png" width="25%"></a>
+					<a href="capstone/"><img class="project-jpg" id="jpg-capstone" src="images/square.png" width="40%"></a>
+					<a href="emails/"><img class="project-jpg" id="jpg-emails" src="images/rect-4.png" width="30%"></a>
+					<a href="aesthetica/"><img class="project-jpg" id="jpg-aesthetica" src="images/rect-2.png" width="35%"></a>
+					<a href="reel/"><img class="project-jpg" id="jpg-reel" src="images/square.png" width="25%"></a>
+					<a href="#"><img src="images/height.png" width="100%"></a>
+				</div>
+				<footer><p>.</p></footer>
 			</div>
 		</div>
 	</body>
+	<script type="text/javascript">
+		$('#container').css('opacity', 0);
+		$(window).load(function() {
+			$('#container').css('opacity', 1);
+		});
+		$(document).ready(function() {
+   			setTimeout('$("#container").css("opacity", 1)', 5000);
+		});
+	</script>
+</html>
