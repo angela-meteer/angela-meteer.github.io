@@ -323,9 +323,10 @@ footer {
 
 .bio-image {
 	width: 32%;
-	max-width: 450px;
+	max-width: 400px;
+	text-align: right;
 	margin-left: 65%;
-	margin-right: 30px;
+	margin-right: 0px;
 	margin-top: 120px;
 	margin-bottom: 150px;
 	padding-top: 24px;
@@ -337,7 +338,7 @@ footer {
 
 
 #bio-trees:hover:after {
-	content: url(info/images/trees-2.jpg); /* no need for quotes */
+	content: url(info/images/trees.jpg); /* no need for quotes */
    display: block;
    position: absolute;
    left: 350px; /* change this value to one that suits you */
@@ -346,7 +347,7 @@ footer {
 }
 
 #bio-plane:hover:after {
-	content: url(info/images/plane-1.jpg); /* no need for quotes */
+	content: url(info/images/plane.jpg); /* no need for quotes */
    display: block;
    position: absolute;
    left: 1050px; /* change this value to one that suits you */
@@ -358,8 +359,8 @@ footer {
 	content: url(info/images/corn.jpg); /* no need for quotes */
    display: block;
    position: absolute;
-   left: 20px; /* change this value to one that suits you */
-   top: 400px;
+   left: 30px; /* change this value to one that suits you */
+   top: 360px;
    zoom: 50%;
 }
 
@@ -376,8 +377,8 @@ footer {
 	content: url(info/images/pasta.jpg); /* no need for quotes */
    display: block;
    position: absolute;
-   left: 1000px; /* change this value to one that suits you */
-   top: 180px;
+   left: 780px; /* change this value to one that suits you */
+   top: 270px;
    zoom: 50%;
 }
 
@@ -385,8 +386,8 @@ footer {
 	content: url(info/images/mani.jpg); /* no need for quotes */
    display: block;
    position: absolute;
-   left: 180px; /* change this value to one that suits you */
-   top: 400px;
+   left: 260px; /* change this value to one that suits you */
+   top: 360px;
    zoom: 50%;
 }
 
