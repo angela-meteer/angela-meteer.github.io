@@ -156,16 +156,68 @@ h1:hover, h1:active {
 	transition: all 0.3s ease;
 }
 
-#jpg-london {
-	background: url(images/london-duotone.jpg);
+#jpg-swiss {
+	background: url(images/swiss-miss-duotone.png);
 	background-size: 100%;
 	position: absolute;
-	left: 20%;
-	top: 9%;
+	left: 0%;
+	top: 2.1%;
+}
+
+#jpg-swiss:hover, #jpg-swiss:active {
+	background: url(images/swiss-miss-color.png);
+	background-size: 100%;
+}
+
+#jpg-you {
+	background: url(images/glossier-you-duotone.png);
+	background-size: 100%;
+	position: absolute;
+	left: 25%;
+	top: 10.5%;
+}
+
+#jpg-you:hover, #jpg-you:active {
+	background: url(images/glossier-you-color.png);
+	background-size: 100%;
+}
+
+#jpg-motion {
+	background: url(images/motion-duotone.jpg);
+	background-size: 100%;
+	position: absolute;
+	left: 75%;
+	top: 4.2%;
+}
+
+#jpg-motion:hover, #jpg-motion:active {
+	background: url(images/motion-color.jpg);
+	background-size: 100%;
+}
+
+#jpg-stickers {
+	background: url(images/stickers-duotone.jpg);
+	background-size: 100%;
+	position: absolute;
+	left: 60%;
+	top: 23.1%;
+}
+
+#jpg-stickers:hover, #jpg-stickers:active {
+	background: url(images/stickers-color.jpg);
+	background-size: 100%;
+}
+
+#jpg-london {
+	background: url(images/london-duotone.png);
+	background-size: 100%;
+	position: absolute;
+	left: 25%;
+	top: 37.75%;
 }
 
 #jpg-london:hover, #jpg-london:active {
-	background: url(images/london-color.jpg);
+	background: url(images/london-color.png);
 	background-size: 100%;
 }
 
@@ -174,7 +226,7 @@ h1:hover, h1:active {
 	background-size: 100%;
 	position: absolute;
 	left: 0%;
-	top: 1.9%;
+	top: 33.6%;
 }
 
 #jpg-vote:hover, #jpg-vote:active {
@@ -182,25 +234,64 @@ h1:hover, h1:active {
 	background-size: 100%;
 }
 
-#jpg-stickers {
-	background: url(images/stickers-duotone.jpg);
+#jpg-ev-index {
+	background: url(images/ellevest-index-duotone.png);
 	background-size: 100%;
 	position: absolute;
-	left: 65%;
-	top: 4.25%;
+	left: 15%;
+	top: 62.95%;
 }
 
-#jpg-stickers:hover, #jpg-stickers:active {
-	background: url(images/stickers-color.jpg);
+#jpg-ev-index:hover, #jpg-ev-index:active {
+	background: url(images/ellevest-index-color.png);
+	background-size: 100%;
+}
+
+#jpg-ev-social {
+	background: url(images/ev-social-duotone.png);
+	background-size: 100%;
+	position: absolute;
+	left: 0%;
+	top: 58.75%;
+}
+
+#jpg-ev-social:hover, #jpg-ev-social:active {
+	background: url(images/ev-social-color.png);
+	background-size: 100%;
+}
+
+#jpg-cookie-butter {
+	background: url(images/cookie-butter-duotone.png);
+	background-size: 100%;
+	position: absolute;
+	left: 60%;
+	top: 58.75%;
+}
+
+#jpg-cookie-butter:hover, #jpg-cookie-butter:active {
+	background: url(images/cookie-butter-color.png);
+	background-size: 100%;
+}
+
+#jpg-emails {
+	background: url(images/emails-duotone.jpg);
+	background-size: 100%;
+	position: absolute;
+	left: 70%;
+	top: 79.75%;
+}
+
+#jpg-emails:hover, #jpg-emails:active {
+	background: url(images/emails-color.jpg);
 	background-size: 100%;
 }
 
 #jpg-camp {
-	background: url(images/camp-duotone.jpg);
+	background: url(images/camp-duotone.png);
 	background-size: 100%;
 	position: absolute;
-	left: 0%;
-	top: 32.75%;
+	left: 5%;
+	top: 86.05%;
 }
 
 #jpg-camp:hover, #jpg-camp:active {
@@ -212,91 +303,12 @@ h1:hover, h1:active {
 	background: url(images/stranger-duotone.jpg);
 	background-size: 100%;
 	position: absolute;
-	left: 30%;
-	top: 37.45%;
+	left: 35%;
+	top: 83.95%;
 }
 
 #jpg-stranger:hover, #jpg-stranger:active {
 	background: url(images/stranger-color.jpg);
-	background-size: 100%;
-}
-
-#jpg-motion {
-	background: url(images/motion-duotone.jpg);
-	background-size: 100%;
-	position: absolute;
-	left: 75%;
-	top: 32.75%;
-}
-
-#jpg-motion:hover, #jpg-motion:active {
-	background: url(images/motion-color.jpg);
-	background-size: 100%;
-}
-
-
-#jpg-mw {
-	background: url(images/mw-duotone.jpg);
-	background-size: 100%;
-	position: absolute;
-	left: 0%;
-	top: 58.8%;
-}
-
-#jpg-mw:hover, #jpg-mw:active {
-	background: url(images/mw-color.jpg);
-	background-size: 100%;
-}
-
-#jpg-capstone {
-	background: url(images/capstone-duotone.jpg);
-	background-size: 100%;
-	position: absolute;
-	left: 30%;
-	top: 61.15%;
-}
-
-#jpg-capstone:hover, #jpg-capstone:active {
-	background: url(images/capstone-color.jpg);
-	background-size: 100%;
-}
-
-#jpg-emails {
-	background: url(images/emails-duotone.jpg);
-	background-size: 100%;
-	position: absolute;
-	left: 60%;
-	top: 51.7%;
-}
-
-#jpg-emails:hover, #jpg-emails:active {
-	background: url(images/emails-color.jpg);
-	background-size: 100%;
-}
-
-#jpg-aesthetica {
-	background: url(images/aesthetica-duotone.jpg);
-	background-size: 100%;
-	position: absolute;
-	left: 15%;
-	top: 84.8%;
-}
-
-#jpg-aesthetica:hover, #jpg-aesthetica:active {
-	background: url(images/aesthetica-color.jpg);
-	background-size: 100%;
-}
-
-#jpg-reel {
-	background: url(images/reel-duotone.jpg);
-	background-size: 100%;
-	position: absolute;
-	left: 75%;
-	top: 82.5%;
-}
-
-#jpg-reel:hover, #jpg-reel:active {
-	background: url(images/reel-color.jpg);
 	background-size: 100%;
 }
 
