@@ -140,6 +140,7 @@ h1:hover, h1:active {
 .content-container {
 	margin-left: max(300px, 29.5%);
 	width: 68%;
+	min-width: 670px;
 	margin-top: 90px; 
 	margin-bottom: 90px;
 	padding-bottom: 30px;
@@ -463,14 +464,14 @@ p {
 }
 
 .img-third-1 {
-	width: 30.7%;
+	width: 30.75%;
 	padding-top: 16px;
 	padding-bottom: 30px;
 	padding-right: 3%;
 }
 
 .img-third-2 {
-	width: 30.7%;
+	width: 30.75%;
 	padding-top: 16px;
 	padding-bottom: 30px;
 }
