@@ -157,6 +157,15 @@ h1:hover, h1:active {
 	transition: all 0.3s ease;
 }
 
+#ellevest-anchor {
+	position: absolute;
+/*	background: rgba(0, 0, 0, 1.0);
+	width: 10px;
+	height: 10px;*/
+	left: 0%;
+	top: 48.5%;
+}
+
 #jpg-swiss {
 	background: url(images/swiss-miss-duotone.png);
 	background-size: 100%;
