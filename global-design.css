@@ -166,16 +166,16 @@ h1:hover, h1:active {
 	top: 48.5%;
 }
 
-#jpg-swiss {
-	background: url(images/swiss-miss-duotone.png);
+#jpg-holiday {
+	background: url(images/holiday-duotone.png);
 	background-size: 100%;
 	position: absolute;
 	left: 0%;
 	top: 2.1%;
 }
 
-#jpg-swiss:hover, #jpg-swiss:active {
-	background: url(images/swiss-miss-color.png);
+#jpg-holiday:hover, #jpg-holiday:active {
+	background: url(images/holiday-color.png);
 	background-size: 100%;
 }
 
@@ -183,7 +183,7 @@ h1:hover, h1:active {
 	background: url(images/glossier-you-duotone.png);
 	background-size: 100%;
 	position: absolute;
-	left: 25%;
+	left: 20%;
 	top: 10.5%;
 }
 
@@ -270,16 +270,16 @@ h1:hover, h1:active {
 	background-size: 100%;
 }
 
-#jpg-cookie-butter {
-	background: url(images/cookie-butter-duotone.png);
+#jpg-swiss {
+	background: url(images/swiss-miss-duotone.png);
 	background-size: 100%;
 	position: absolute;
 	left: 60%;
 	top: 58.75%;
 }
 
-#jpg-cookie-butter:hover, #jpg-cookie-butter:active {
-	background: url(images/cookie-butter-color.png);
+#jpg-swiss:hover, #jpg-swiss:active {
+	background: url(images/swiss-miss-color.png);
 	background-size: 100%;
 }
 
@@ -296,16 +296,16 @@ h1:hover, h1:active {
 	background-size: 100%;
 }
 
-#jpg-camp {
-	background: url(images/camp-duotone.png);
+#jpg-cookie-butter {
+	background: url(images/cookie-butter-duotone.png);
 	background-size: 100%;
 	position: absolute;
 	left: 5%;
 	top: 86.05%;
 }
 
-#jpg-camp:hover, #jpg-camp:active {
-	background: url(images/camp-color.jpg);
+#jpg-cookie-butter:hover, #jpg-cookie-butter:active {
+	background: url(images/cookie-butter-color.png);
 	background-size: 100%;
 }
 
